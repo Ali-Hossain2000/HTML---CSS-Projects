@@ -1,0 +1,46 @@
+.card-factory {
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: silver;
+ border-radius: 1%;
+}
+
+.card-model-1 {
+    border-radius: 2%;
+    margin: 20px;
+    height: 500px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px 1px;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+.card-model-1:hover {
+    box-shadow: 3px 3px 4px 2px white;
+}
+
+.my-img {
+    margin: 10px 28px 0 28px;
+    height: 60%;
+    width: 80%;
+    
+}
+
+.card-body {
+    height: 40%;
+    width: 100%;
+    background-color: lightyellow
+}
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+}
+
+.card-des {
+    padding: 5px;
+    text-align: justify;
+}
